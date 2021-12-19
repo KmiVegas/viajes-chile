@@ -30,3 +30,11 @@ h2 {
 p {
     font-weight: 300;
 }
+
+.ancla {
+    text-decoration: none;
+}
+
+.ancla:hover {
+    color: rgb(201, 201, 201);
+}

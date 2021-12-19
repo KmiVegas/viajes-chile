@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,12 +23,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-
+    <!-- NAVBAR -->
     <div class="container-fluid fixed-top fondo sombreado">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">
@@ -58,6 +59,7 @@
         </nav>
     </div>
 
+    <!-- CARRUSEL -->
     <div id="CarouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -80,10 +82,11 @@
         </button>
     </div>
 
+    <!-- SECCIÓN QUIENES SOMOS -->
     <div class="container">
         <section class="py-5 px-5 d-none d-md-block" id="AboutUs">
             <h2 class="text-center">¿Quiénes somos?</h2>
-            <hr class="bg-info">
+            <hr class="bg-info my-4 pt-1 w-100">
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="bg-info text-center py-1">
@@ -119,9 +122,10 @@
         </section>
     </div>
 
+    <!-- SECCIÓN DESTACADOS -->
     <section class="container mt-5 pt-5" id="Destacados">
         <h2 class="text-center">Destacados</h2>
-        <hr class="bg-info ">
+        <hr class="bg-info my-4 pt-1 w-100">
         <div class="card-deck pt-2">
             <div class="card bg-info">
                 <img src="assets/img/card1.jpg" class="card-img-top wallpaper" alt="...">
@@ -164,6 +168,43 @@
             </div>
         </div>
     </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <div class="container mt-5 pt-5">
+        <section class="" id="Contacto">
+            <h2 class="text-center pt-5">Contacto</h2>
+            <hr class="bg-info my-4 pt-1 w-100">
+            <div class="bg-white contacto">
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+        <footer class="container-fluid mt-5 bg-info py-2">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-4 py-2">
+                    <h2 class="py-0 my-0">VIAJES CHILE</h2>
+                </div>
+                <div class="col-12 col-md-4 py-2">
+                    <a href="https://github.com/" target="_blank" class="text-white ancla" data-toggle="tooltip" data-placement="top"
+                        title="Github">
+                        <i class="fab ml-3 fa-2x fa-github-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="text-white ancla" data-toggle="tooltip" data-placement="top"
+                        title="linkedin">
+                        <i class="fab ml-3 fa-2x fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="text-white ancla" data-toggle="tooltip" data-placement="top"
+                        title="twitter">
+                        <i class="fab ml-3 fa-2x fa-twitter-square"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="text-white ancla" data-toggle="tooltip" data-placement="top"
+                        title="facebook">
+                        <i class="fab ml-3 fa-2x fa-facebook-square"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
