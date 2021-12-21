@@ -4,6 +4,10 @@ Html5
 
 CSS3
 
-Versión Bootstrap: 4.6.1
+Js
 
-Version Font Awesome: 6.0.0-beta3
+Bootstrap: v4.6.1
+
+Font Awesome: v6.0.0-beta3
+
+Typeform
